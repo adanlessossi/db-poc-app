@@ -1,0 +1,12 @@
+.NewTenant form {
+    padding-bottom: 15px;
+    margin: 20px;
+    padding: 20px;
+    resize: vertical;
+    overflow: auto;
+  }
+  
+  .NewTenant form textarea {
+    height: 300px;
+    font-size: 24px;
+  }

@@ -1,0 +1,42 @@
+{
+  "name": "poc-api",
+  "version": "1.1.0",
+  "description": "A DB POC and tortoisedb support",
+  "main": "./db/tortoiseDB.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.prod.js",
+    "start": "nodemon index.js",
+    "debug": "DEBUG=tortoiseDB:* node index.js"
+  },
+  "author": "Bernard Adanlessossi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adanlessossi/db-poc-app.git"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.332.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-source-map-support": "^1.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "jest": "^21.2.1",
+    "nodemon": "^1.18.4",
+    "serverless-offline": "^3.25.6",
+    "serverless-webpack": "^5.1.0",
+    "webpack": "^4.16.2",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "debug": "^4.1.0",
+    "mongodb": "^3.1.8",
+    "source-map-support": "^0.4.18",
+    "supports-color": "^5.5.0",
+    "tortoisedb": "^1.0.8",
+    "uuid": "^3.3.2"
+  }
+}
